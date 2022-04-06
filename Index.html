@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="shortcut icon" href="images/icono.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>PokeDex</title>
+</head>
+<body>
+    <h1>PokeDex</h1>
+    <main class="mainclass">
+        <section class="inputFields">
+            <input type="text" id="pokemonName" placeholder="Pokemon name or ID">
+            <div class="buttons">
+                
+                <img src="images/Capture1.jpg" alt="search btn" id="searchPokemon" style="display: inline; height: 32px; width: 40px;"> <!-- debemos poner el enlace de todas las imagenes para que nos las traiga al html -->
+                <img src="images/Capture2.jpg" alt="remove btn" id="deletePokemon" style="display: inline; height: 31px; width: 30px;"> <!-- debemos poner el enlace de todas las imagenes para que nos las traiga al html -->
+                
+            </div>
+        </section>
+        <section class="pokemonDate" id="app"></section>
+    </main>
+
+    <script src="app.js"></script>  <!-- debemos poner esta etiqueta para enlazar el javascript -->
+    
+</body>
+</html>
